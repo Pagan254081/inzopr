@@ -1,0 +1,43 @@
+Przypadek nr 1: Wyszukiwanie po³¹czenia
+
+1. Uzytkownik loguje siê do systemu
+2. U¿ytkownik wpisuje dane tzn.: miejsce docelowe, startowe, data
+3. U¿ytkownik wybiera typ po³¹czenia: bezpoœrednie, z przesiadkami, wybór przewoŸnika
+4. Zatweirdzenie wyboru
+5. Komunikat zwrotny wyszukiwarki
+6. Powrót do ekranu stratowego
+
+
+
+Przypadek nr 2: Aktualizacja rozk³adu
+
+1. Admin loguje siê do systemu
+2. Admin wybiera trasê do zaktualizowania
+3. Admin dodaje lub usuwa trasy
+4. Zatwierdzenie zmian
+5. Powrót do ekranu startowego
+
+Przypadek nr 3: Dodawanie do ulubionych
+
+1. U¿ytkownik loguje sie do systemu
+2. U¿ytkownik wybeira opcje dodania trasy do ulubionych
+3. U¿ytkownik wpisuje dane trasy: miejsce startowe, docelowe
+4. U¿ytkownik wybiera preferowany typ po³¹czenia: przwoŸnik, bezpoœrednie, poœrednie
+5. Zatweirdzenie wyboru
+6. Powrót do ekranu startowego
+
+Interakcje rozpoczyna Wyszukiwarka poprzez panel logowania u¿ytkownika lub admina.
+Co moze pójœæ nie tak:
+B³¹d po³¹czenia z wyszukiwark¹, brak po³¹czenia w danym dniu, problem z synchronizacja danych (admin), 
+podanie z³ego has³¹ lub loginu
+Cel g³ówny: 
+Zmnalezienie optymalnego po³¹czenia
+Wymagania wstêpne:
+po³¹czenie z internetem, logowanie zakoñczone powodzeniem
+Rezultat gwarantowany:
+Optymalne po³¹czenie
+
+
+Grupa:
+Filip Domachowski
+Wojciech Marciniak
